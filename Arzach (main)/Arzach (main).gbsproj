@@ -5263,6 +5263,16 @@
     ],
     "backgrounds": [
         {
+            "id": "2805e605-2fae-4128-843e-43a4099c8b4f",
+            "name": "End Screen",
+            "symbol": "bg_end_screen",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "End Screen.png"
+        },
+        {
             "id": "cc87eac9-0773-4c9b-a758-bc1c6b9d4735",
             "name": "HagReveal",
             "symbol": "bg_hagreveal",
@@ -5272,6 +5282,16 @@
             "imageHeight": 144,
             "filename": "HagReveal.png",
             "tileColors": []
+        },
+        {
+            "id": "3635673e-7c87-412f-bae7-86ba4b71d560",
+            "name": "Landing",
+            "symbol": "bg_landing",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Landing.png"
         },
         {
             "id": "6f56eaef-da34-429f-9591-dd52bdf670c5",
@@ -5340,6 +5360,16 @@
             "tileColors": []
         },
         {
+            "id": "269e38f2-6be9-41f2-ae4a-9cff42e30a1f",
+            "name": "To the Rope You Go",
+            "symbol": "bg_to_the_rope_you_go",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "To the Rope You Go.png"
+        },
+        {
             "id": "e0e318ac-3235-4aa1-889d-bef942a52ab1",
             "name": "TowerIn_Wip",
             "symbol": "bg_towerin_wip",
@@ -5382,6 +5412,16 @@
             "imageHeight": 144,
             "filename": "bg_test.png",
             "tileColors": []
+        },
+        {
+            "id": "63d1ca6f-27aa-421c-96e4-c3329f019912",
+            "name": "cum",
+            "symbol": "bg_cum",
+            "width": 174,
+            "height": 18,
+            "imageWidth": 1392,
+            "imageHeight": 144,
+            "filename": "cum.png"
         },
         {
             "id": "894c5b6a-fe63-4c10-a0d7-8183d5bbec91",
@@ -11227,6 +11267,165 @@
             "animSpeed": 15
         },
         {
+            "id": "251d2db7-c250-4896-9566-1a9c97b5d340",
+            "name": "Caveman",
+            "symbol": "sprite_caveman",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "Caveman.png",
+            "checksum": "52b11b9322339097009fb98b3cc73549db345fe9",
+            "width": 32,
+            "height": 16,
+            "states": [
+                {
+                    "id": "9fa56c55-5d5b-4a45-9c84-b69fac839711",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "e16ca3c6-85d6-41c4-975b-6258f99c2ff2",
+                            "frames": [
+                                {
+                                    "id": "2ed23abd-e670-47c4-a8ce-b46fa9cd9db3",
+                                    "tiles": [
+                                        {
+                                            "id": "84855c73-c3c7-48e0-a556-ab44e80fa39f",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "adb76649-20ed-4c93-8dc4-1e920cdf968a",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "0b54b0bb-4849-47e4-a3e6-8aa7a3744f77",
+                                    "tiles": [
+                                        {
+                                            "id": "53211074-bbfe-47ed-b8e7-93e2508eb038",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "5687c74d-2c3c-46a7-ab6e-f19b70f80ab0",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e6c0a08d-43cb-4029-80cc-7224ae3d43ca",
+                            "frames": [
+                                {
+                                    "id": "3376dbb1-b622-4825-9b57-26c41a16293d",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1c4ad490-a749-4782-9047-ab0c6858bec0",
+                            "frames": [
+                                {
+                                    "id": "75e6ecad-f220-4598-acbf-e8771edb0013",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c0fd0d9c-e1ba-42bb-a6bf-e5d139d6eff6",
+                            "frames": [
+                                {
+                                    "id": "cb6ec96e-9123-4d85-9440-d1bbace4f6ca",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "033a10c9-1ac0-44f0-9e7e-473d04f5255b",
+                            "frames": [
+                                {
+                                    "id": "23355cf9-f614-4ea3-90dc-6ecf1160ea8a",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5dfbf527-12b3-4389-bb52-7bcb0f817fac",
+                            "frames": [
+                                {
+                                    "id": "8feb8c21-369f-40f8-8619-621d51172fa3",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "9bb3bd7f-bec9-4f19-8fdd-4657bd9c711b",
+                            "frames": [
+                                {
+                                    "id": "4c463bf1-7a3f-4803-a482-327b0a3acd4f",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a4994676-45ae-461e-b6b5-f83ac8d1cd11",
+                            "frames": [
+                                {
+                                    "id": "c32c4528-5d20-4a7f-9dfa-3bda372fb779",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 4,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "fce4d2c3-784c-4370-a0f5-79751702787e",
             "name": "Dangling_caveman",
             "symbol": "sprite_dangling_caveman",
@@ -11787,6 +11986,107 @@
             "numTiles": 11,
             "canvasWidth": 16,
             "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "557f6b8c-b13d-439a-bf14-77ff0ab211ca",
+            "name": "Rock",
+            "symbol": "sprite_rock",
+            "numFrames": 0.5,
+            "type": "animated",
+            "filename": "Rock.png",
+            "checksum": "c991408ec07ff09a606471e971e4222d258e50d5",
+            "width": 8,
+            "height": 8,
+            "states": [
+                {
+                    "id": "d6ba41fd-d03e-4a4a-98ad-d07978af5fe5",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "ffdc5b47-aecf-4f03-a9d6-7fb84a55447b",
+                            "frames": [
+                                {
+                                    "id": "49e7545f-1b85-4894-8a70-ddcce5768b11",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3cb4bc3e-b49b-42cd-b517-44128fb5cac7",
+                            "frames": [
+                                {
+                                    "id": "8e5a7fff-d413-49bf-b99c-9bf514b88bfa",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "21fea755-3ef6-4a6b-8bf9-1241dc299e11",
+                            "frames": [
+                                {
+                                    "id": "bdb7e7ce-09b7-466a-95ae-0b74381e0c82",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8978a9c9-500e-4df0-88ed-2d37d159ee07",
+                            "frames": [
+                                {
+                                    "id": "2bee8188-597b-4d23-a36c-8f895caae885",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a4395c2a-e011-4869-a0fb-872811911f18",
+                            "frames": [
+                                {
+                                    "id": "d54ac1ac-b4b6-4062-b189-e33d0fadd148",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "fe60b680-ced8-4c3f-9a37-d2ddb497a594",
+                            "frames": [
+                                {
+                                    "id": "f7e97bd7-a6f1-4121-ab6a-ce7e8bca3c93",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4c535706-1764-4d5d-b03b-5199e0041751",
+                            "frames": [
+                                {
+                                    "id": "58cc0058-bd01-48a6-9281-d3d1adb52f9f",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "139d3904-b71a-4ac1-97d3-3fb87f76f39c",
+                            "frames": [
+                                {
+                                    "id": "6febd9d2-efcf-4b4a-8a30-1f6146b71dc9",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
             "boundsX": 0,
             "boundsY": 0,
             "boundsWidth": 16,
@@ -12694,6 +12994,22 @@
     ],
     "music": [
         {
+            "id": "5d9741c4-741a-4c1e-a551-1ec83f3a7416",
+            "name": "song_template 1",
+            "symbol": "song_song_template_1",
+            "filename": "song_template 1.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "cfd1d1f6-5cee-4ea9-8208-d1d15b279b57",
+            "name": "song_template",
+            "symbol": "song_song_template",
+            "filename": "song_template.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "symbol": "song_template",
@@ -12806,8 +13122,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2777,
-        "worldScrollY": 233,
+        "worldScrollX": 3825,
+        "worldScrollY": 2240,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
