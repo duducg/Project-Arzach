@@ -20,8 +20,8 @@
             "autoFadeSpeed": 1,
             "id": "64bd602d-9ad2-457c-8a9f-ce4b7c560905",
             "symbol": "scene_3",
-            "x": 183.8787878787878,
-            "y": 36.90909090909091,
+            "x": 181.3333333333333,
+            "y": 30,
             "actors": [],
             "triggers": [
                 {
@@ -3325,8 +3325,8 @@
             "autoFadeSpeed": 1,
             "id": "19f492d9-85f7-495e-acbc-cea99962a79d",
             "symbol": "scene_9",
-            "x": 1457.9324675324674,
-            "y": 275.2484848484843,
+            "x": 1458.8213564213559,
+            "y": 258.3595959595953,
             "actors": [],
             "triggers": [],
             "script": [
@@ -3367,8 +3367,8 @@
             "autoFadeSpeed": 1,
             "id": "7f299f0a-616b-4d3a-98f5-4c301417cf2b",
             "symbol": "scene_10",
-            "x": 1677.6138528138522,
-            "y": 269.3991341991341,
+            "x": 1679.213852813852,
+            "y": 260.5991341991341,
             "actors": [],
             "triggers": [],
             "script": [
@@ -3391,7 +3391,7 @@
         },
         {
             "name": "Hanging (CUTSCENE)",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "backgroundId": "04fb7ff9-9630-45bc-ba82-2e7146d5301b",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -3401,8 +3401,8 @@
             "autoFadeSpeed": 1,
             "id": "451d75f5-3fb6-47a8-a92b-fa96e83d76a4",
             "symbol": "scene_11",
-            "x": 1882.5212121212137,
-            "y": 261.1636363636365,
+            "x": 1879.0926406926417,
+            "y": 269.1636363636365,
             "actors": [],
             "triggers": [],
             "script": [
@@ -5157,10 +5157,10 @@
         },
         {
             "name": "Landing (CUTSCENE)",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "backgroundId": "d27ddb2e-32da-4ebe-9a96-75e5e3601676",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
@@ -5188,8 +5188,8 @@
             "autoFadeSpeed": 1,
             "id": "034d705a-f638-4dc9-a3c7-43934c99ede8",
             "symbol": "scene_24",
-            "x": 1871.4285714285718,
-            "y": 1426.2857142857142,
+            "x": 1868.5714285714287,
+            "y": 1427.4285714285716,
             "actors": [],
             "triggers": [],
             "script": [],
@@ -5251,8 +5251,29 @@
             "autoFadeSpeed": 1,
             "id": "4da0954f-2816-413b-b5d8-7ac459cbebdb",
             "symbol": "scene_2",
-            "x": 2369.142857142858,
-            "y": 879.9999999999999,
+            "x": 2354.8571428571436,
+            "y": 875.4285714285714,
+            "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Picnic (CUTSCENE)",
+            "backgroundId": "4883ec06-4f6d-42b7-918a-c9c451f98cc0",
+            "width": 20,
+            "height": 18,
+            "type": "LOGO",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "ac6bda30-f0f8-4867-a082-606e26d71d5c",
+            "symbol": "scene_5",
+            "x": 2054.3030303030296,
+            "y": 1425.2121212121215,
             "actors": [],
             "triggers": [],
             "script": [],
@@ -5263,6 +5284,16 @@
     ],
     "backgrounds": [
         {
+            "id": "4883ec06-4f6d-42b7-918a-c9c451f98cc0",
+            "name": "End Screen",
+            "symbol": "bg_end_screen",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "End Screen.png"
+        },
+        {
             "id": "cc87eac9-0773-4c9b-a758-bc1c6b9d4735",
             "name": "HagReveal",
             "symbol": "bg_hagreveal",
@@ -5272,6 +5303,16 @@
             "imageHeight": 144,
             "filename": "HagReveal.png",
             "tileColors": []
+        },
+        {
+            "id": "d27ddb2e-32da-4ebe-9a96-75e5e3601676",
+            "name": "Landing",
+            "symbol": "bg_landing",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Landing.png"
         },
         {
             "id": "6f56eaef-da34-429f-9591-dd52bdf670c5",
@@ -5338,6 +5379,16 @@
             "imageHeight": 144,
             "filename": "Start Screen.png",
             "tileColors": []
+        },
+        {
+            "id": "04fb7ff9-9630-45bc-ba82-2e7146d5301b",
+            "name": "To the Rope You Go",
+            "symbol": "bg_to_the_rope_you_go",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "To the Rope You Go.png"
         },
         {
             "id": "e0e318ac-3235-4aa1-889d-bef942a52ab1",
@@ -11227,6 +11278,165 @@
             "animSpeed": 15
         },
         {
+            "id": "76d84e92-46af-4ab8-b2f3-79d7a6b6d0ed",
+            "name": "Caveman",
+            "symbol": "sprite_caveman",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "Caveman.png",
+            "checksum": "52b11b9322339097009fb98b3cc73549db345fe9",
+            "width": 32,
+            "height": 16,
+            "states": [
+                {
+                    "id": "25c91ad7-9ad7-49bc-90a3-f8542103cad3",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "64ef3064-409a-4c43-a41a-9f49ffb90e0a",
+                            "frames": [
+                                {
+                                    "id": "41b83f68-8b94-4aae-a0df-3083d8abc488",
+                                    "tiles": [
+                                        {
+                                            "id": "c28af893-f07c-4275-82a8-6cef02b4676a",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "0d1e95eb-9834-4ab6-800e-ac8e31c9ab07",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "24d0cf41-f574-455b-9a7e-141f4a29a06f",
+                                    "tiles": [
+                                        {
+                                            "id": "e08d8516-6c74-432f-ae7d-70ca58d5523d",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "3a51b706-e6d3-4768-8aac-8412e13c9ddd",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4071f81e-e8d4-4eb2-a88c-49be0ef56802",
+                            "frames": [
+                                {
+                                    "id": "7630c59b-648e-45a0-8e6d-1c758e43a022",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8f7420e1-6157-4ed0-9bc3-94362e4b6774",
+                            "frames": [
+                                {
+                                    "id": "cd41135b-8d1e-41f0-a7d3-71f4e3841c08",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3643cfa9-ad02-4da1-9914-91cbae44bb21",
+                            "frames": [
+                                {
+                                    "id": "5a3b4161-2d82-4686-899b-c2b136df6904",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5a75ddd1-052b-4c32-b6dd-7fd7e6235f58",
+                            "frames": [
+                                {
+                                    "id": "f7987ae4-8833-4026-8736-a20f9ee5e264",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "11586307-a124-401b-b197-fd7fb8d401bd",
+                            "frames": [
+                                {
+                                    "id": "4260d691-68ac-40de-b908-49e6e77f3c73",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3da69423-89a5-4978-9696-2c76c7c46dd1",
+                            "frames": [
+                                {
+                                    "id": "e52a4c67-16be-4569-8824-99cb2b82b44c",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "69e6c0b5-9b83-45b3-913f-e6a5c090ccd5",
+                            "frames": [
+                                {
+                                    "id": "75914520-f68e-44e3-bab4-fae7fbcb7a47",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 4,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "fce4d2c3-784c-4370-a0f5-79751702787e",
             "name": "Dangling_caveman",
             "symbol": "sprite_dangling_caveman",
@@ -11787,6 +11997,107 @@
             "numTiles": 11,
             "canvasWidth": 16,
             "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "d0e4b75b-76b4-4cfc-a699-9c659158bdbb",
+            "name": "Rock",
+            "symbol": "sprite_rock",
+            "numFrames": 0.5,
+            "type": "animated",
+            "filename": "Rock.png",
+            "checksum": "c991408ec07ff09a606471e971e4222d258e50d5",
+            "width": 8,
+            "height": 8,
+            "states": [
+                {
+                    "id": "80ffa5a7-913b-4e58-a8c6-3f593ea0a738",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "272b27d6-a818-4f8e-8039-a461513a207d",
+                            "frames": [
+                                {
+                                    "id": "1aa3b5a5-854d-425d-9717-955694bdbcf4",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d44be5fd-1589-484b-afa0-bc1c7060c946",
+                            "frames": [
+                                {
+                                    "id": "af2bddfb-9988-4112-874f-e274b970c081",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c3b19c6a-b68b-4f69-a145-93aceec25e55",
+                            "frames": [
+                                {
+                                    "id": "34bb4220-1eea-432c-af24-fb287bc92ef0",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c7e03333-61e3-44d5-a308-9b17c862392f",
+                            "frames": [
+                                {
+                                    "id": "55cb0f39-6759-407e-a5fb-9fc7bf37b8fd",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c698ec76-8971-443f-8290-225c30c67fa0",
+                            "frames": [
+                                {
+                                    "id": "6933398d-a853-4f07-8b47-d86ab41b97d8",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e4ee2dc8-345d-4288-b85a-213555d084e8",
+                            "frames": [
+                                {
+                                    "id": "5eb64bd4-dfe8-4116-a5ea-e13fdd5fa8f7",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2fc104db-4b30-4616-9085-68e7c64ffb8b",
+                            "frames": [
+                                {
+                                    "id": "56d38d36-07c2-4faf-bde9-b78c6ee07129",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "82fccf7f-b823-4b65-bb4f-9f2b952fb1d1",
+                            "frames": [
+                                {
+                                    "id": "e64d6d35-9f27-4c87-b64a-80a7a3c0cf91",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
             "boundsX": 0,
             "boundsY": 0,
             "boundsWidth": 16,
@@ -12694,6 +13005,22 @@
     ],
     "music": [
         {
+            "id": "d72b33a9-da7f-4a37-b07e-e327ab7cee2a",
+            "name": "song_template 1",
+            "symbol": "song_song_template_1",
+            "filename": "song_template 1.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "de285513-6040-4f23-ab74-7fc3257c1d46",
+            "name": "song_template",
+            "symbol": "song_song_template",
+            "filename": "song_template.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "symbol": "song_template",
@@ -12806,9 +13133,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2777,
-        "worldScrollY": 233,
-        "zoom": 225,
+        "worldScrollX": 1669,
+        "worldScrollY": 0,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
