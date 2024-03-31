@@ -4554,7 +4554,7 @@
                         "sceneId": "7f299f0a-616b-4d3a-98f5-4c301417cf2b",
                         "x": 1,
                         "y": 8,
-                        "direction": "",
+                        "direction": "right",
                         "fadeSpeed": 5,
                         "__collapse": false
                     },
@@ -6742,14 +6742,35 @@
             "autoFadeSpeed": 1,
             "id": "362655ff-3a72-42c5-82d8-be0dc5a62024",
             "symbol": "scene_22",
-            "x": 2240.5714285714284,
-            "y": 1244.5714285714287,
+            "x": 2239.6825396825398,
+            "y": 1227.6825396825395,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 3,
+                        "frames": 30
+                    },
+                    "id": "5dbc21a8-7739-4d20-9a9e-f6dde452e486"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "cc57c62b-ccff-4c9c-8897-9d5254527854",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "ce5ef232-4a24-4237-97a5-39778ab9e608"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Landing (CUTSCENE)",
@@ -6767,7 +6788,27 @@
             "y": 1429.714285714286,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 2,
+                        "frames": 30
+                    },
+                    "id": "7fb5c113-a392-4fa7-8401-a4d0a82bd59a"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "034d705a-f638-4dc9-a3c7-43934c99ede8",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "181c3c5f-2434-47f8-932f-514d56a0dca8"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -6788,7 +6829,27 @@
             "y": 1427.4285714285716,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 2,
+                        "frames": 30
+                    },
+                    "id": "b54f41e8-0717-459a-bd20-225c9e1ef221"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "ac6bda30-f0f8-4867-a082-606e26d71d5c",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "884e05f6-51e2-457d-8efe-273dbf47f4a9"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -6805,11 +6866,31 @@
             "autoFadeSpeed": 1,
             "id": "cc57c62b-ccff-4c9c-8897-9d5254527854",
             "symbol": "scene_25",
-            "x": 2424.9999999999995,
-            "y": 1245.0000000000002,
+            "x": 2425.444444444444,
+            "y": 1225.0000000000007,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 3,
+                        "frames": 30
+                    },
+                    "id": "b22936d7-3c9f-45db-b208-b2aaa0a92330"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "386e02bf-ba76-4501-bbb7-367ac3d01156",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "21f2ddb6-1418-4d3d-b9a6-6fcc8d9b3531"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -6916,7 +6997,27 @@
             "y": 1425.2121212121215,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 5,
+                        "frames": 30
+                    },
+                    "id": "b1909923-eb4c-4116-af03-4fc8aabaac44"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "ddc63c01-fe2e-4d0f-8683-803645c7a70d",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": 5
+                    },
+                    "id": "4e9c3591-4f68-4b27-9bb0-6a10f90b5e22"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -7294,8 +7395,8 @@
             "autoFadeSpeed": 1,
             "id": "7c07c57a-3d58-4fe1-b368-c632166fc38b",
             "symbol": "scene_6",
-            "x": 2059.6571428571424,
-            "y": 1236.5714285714284,
+            "x": 1850.5777777777785,
+            "y": 1220,
             "actors": [
                 {
                     "name": "Fist R",
@@ -7419,7 +7520,7 @@
                                             "duration": 1,
                                             "frames": 30,
                                             "__scriptTabs": "end",
-                                            "__collapse": false,
+                                            "__collapse": true,
                                             "__label": "Countdown timer"
                                         },
                                         "children": {
@@ -7483,7 +7584,7 @@
                                 "operator": "==",
                                 "comparator": 3,
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -7500,7 +7601,7 @@
                                                     "command": "EVENT_GROUP",
                                                     "args": {
                                                         "__label": "Reset fists and slam once",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -8364,7 +8465,7 @@
                                                     "command": "EVENT_GROUP",
                                                     "args": {
                                                         "__label": "Fists",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -9960,6 +10061,26 @@
                                             ]
                                         },
                                         "id": "e02556c5-e04a-4228-88d0-cf0f73926c92"
+                                    },
+                                    {
+                                        "command": "EVENT_CAMERA_SHAKE",
+                                        "args": {
+                                            "time": 0.5,
+                                            "frames": 30,
+                                            "shakeDirection": "horizontal"
+                                        },
+                                        "id": "c317c160-8e4c-464f-be90-01389b42faf5"
+                                    },
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "6ab88e1b-0350-4ed8-9095-d7a228f38546",
+                                            "x": 9,
+                                            "y": 15,
+                                            "direction": "up",
+                                            "fadeSpeed": 1
+                                        },
+                                        "id": "abd4579b-1307-4977-b722-e4786d774029"
                                     }
                                 ],
                                 "true4": [],
@@ -10139,7 +10260,8 @@
                 }
             ],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "414ccd25-b42a-4ea5-9a6d-b7e040757f06"
+            "playerSpriteSheetId": "414ccd25-b42a-4ea5-9a6d-b7e040757f06",
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Caveman Into",
@@ -18494,6 +18616,109 @@
                 }
             ],
             "playerSpriteSheetId": "0ca021aa-fd9c-452f-847c-1e023b6bc2b0"
+        },
+        {
+            "name": "Scene 27",
+            "backgroundId": "27abbaa4-030e-4ac3-a4e9-158bad14faea",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "6ab88e1b-0350-4ed8-9095-d7a228f38546",
+            "symbol": "scene_18",
+            "x": 2044.0000000000007,
+            "y": 1222.666666666666,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "7fa41f2b-c92b-4c3a-9c44-b0ebca02e951",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_25",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "2d81a82a-9c39-46b1-a060-6382cd94130e",
+                    "x": 17,
+                    "y": 6
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "218a07f9-ce98-4a67-afda-06146dc5a870",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_26",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "8ea00fc3-3d17-4c07-b596-783d2783d0db",
+                    "x": 1,
+                    "y": 6
+                }
+            ],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "args": {
+                        "type": "crash",
+                        "priority": "medium",
+                        "pitch": 1,
+                        "frequency": 200,
+                        "duration": 0.5,
+                        "wait": true,
+                        "effect": 0,
+                        "__collapse": false
+                    },
+                    "id": "16222f89-e733-4bb0-8ef6-2a3b5f9acf8d"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 2,
+                        "frames": 30
+                    },
+                    "id": "8f26e563-d3c7-4cf1-9cb2-feccf5a89af4"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "362655ff-3a72-42c5-82d8-be0dc5a62024",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "f33958b3-1e75-4183-89ed-d70bfc1fb898"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "414ccd25-b42a-4ea5-9a6d-b7e040757f06"
         }
     ],
     "backgrounds": [
@@ -18572,6 +18797,17 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Picnic.png",
+            "tileColors": []
+        },
+        {
+            "id": "27abbaa4-030e-4ac3-a4e9-158bad14faea",
+            "name": "PlatformBroken_W_Monke",
+            "symbol": "bg_platformbroken_w_monke",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "PlatformBroken_W_Monke.png",
             "tileColors": []
         },
         {
@@ -27771,6 +28007,51 @@
             "symbol": "var_shot_order"
         },
         {
+            "id": "2",
+            "name": "Round_var",
+            "symbol": "var_round_var"
+        },
+        {
+            "id": "3",
+            "name": "Fist L_pos_X",
+            "symbol": "var_fist_l_pos_x"
+        },
+        {
+            "id": "4",
+            "name": "Fist L_pos_Y",
+            "symbol": "var_fist_l_pos_y"
+        },
+        {
+            "id": "5",
+            "name": "switch direction",
+            "symbol": "var_switch_direction_0"
+        },
+        {
+            "id": "6",
+            "name": "Fist_R_pos_X",
+            "symbol": "var_fist_r_pos_x"
+        },
+        {
+            "id": "7",
+            "name": "Fist_R_pos__Y",
+            "symbol": "var_fist_r_pos_y"
+        },
+        {
+            "id": "8",
+            "name": "switch_direct_R",
+            "symbol": "var_switch_direct_r"
+        },
+        {
+            "id": "9",
+            "name": "Round_switch_timer",
+            "symbol": "var_round_switch_timer"
+        },
+        {
+            "id": "10",
+            "name": "reset_fists",
+            "symbol": "var_reset_fists"
+        },
+        {
             "id": "c24729bd-7655-49ca-9f39-e0e17ee608b1__L0",
             "name": "Shoot_now",
             "symbol": "var_shoot_now_0"
@@ -27846,24 +28127,9 @@
             "symbol": "var_enter_7"
         },
         {
-            "id": "2",
-            "name": "Round_var",
-            "symbol": "var_round_var"
-        },
-        {
             "id": "5c2b9080-5e47-4423-ba10-cf0041c50dc6__L3",
             "name": "Local 3",
             "symbol": "var_local_3"
-        },
-        {
-            "id": "3",
-            "name": "Fist L_pos_X",
-            "symbol": "var_fist_l_pos_x"
-        },
-        {
-            "id": "4",
-            "name": "Fist L_pos_Y",
-            "symbol": "var_fist_l_pos_y"
         },
         {
             "id": "5c2b9080-5e47-4423-ba10-cf0041c50dc6__L0",
@@ -27874,36 +28140,6 @@
             "id": "5c2b9080-5e47-4423-ba10-cf0041c50dc6__L1",
             "name": "Player_Y",
             "symbol": "var_player_y"
-        },
-        {
-            "id": "5",
-            "name": "switch direction",
-            "symbol": "var_switch_direction_0"
-        },
-        {
-            "id": "6",
-            "name": "Fist_R_pos_X",
-            "symbol": "var_fist_r_pos_x"
-        },
-        {
-            "id": "7",
-            "name": "Fist_R_pos__Y",
-            "symbol": "var_fist_r_pos_y"
-        },
-        {
-            "id": "8",
-            "name": "switch_direct_R",
-            "symbol": "var_switch_direct_r"
-        },
-        {
-            "id": "9",
-            "name": "Round_switch_timer",
-            "symbol": "var_round_switch_timer"
-        },
-        {
-            "id": "10",
-            "name": "reset_fists",
-            "symbol": "var_reset_fists"
         }
     ],
     "engineFieldValues": [
@@ -27923,9 +28159,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 7250,
-        "worldScrollY": 4565,
-        "zoom": 375,
+        "worldScrollX": 2419,
+        "worldScrollY": 990,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
